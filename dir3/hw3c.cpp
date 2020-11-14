@@ -42,7 +42,7 @@ void print2darray(int r, int c, Point **p)
 
 void delete2darray(int r, Point **p)
 {
-    int i, j;
+    int i;
 
     for (i = 0; i < r; i++)
         delete [] p[i];
